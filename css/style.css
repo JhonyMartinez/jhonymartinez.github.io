@@ -26,7 +26,7 @@ main{
     box-shadow: 5px 5px 15px gray;
 }
 .card .qr img{
-    width: ;
+    width: 100%;
     border-radius: 20px;
 }
 .card .text{
