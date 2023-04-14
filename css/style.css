@@ -1,50 +1,112 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Fredoka+One&family=NTR&family=Rajdhani:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-main{
+body{
+    background: #d7dbdc;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+header{
     width: 100%;
-    height: 100vh;
-    background: hsl(212, 45%, 89%);
+}
+header img{
+    width: 100%;
+}
+.container1{
+    width: 100%;
+    margin: auto;
+}.container1 .texto-general{
+    padding: 40px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: 'Outfit', sans-serif;
 }
-.card{
-    width: 290px;
-    height: fit-content;
-    padding: 15px;
-    background: hsl(0, 0%, 100%);
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    box-shadow: 5px 5px 15px gray;
-}
-.card .qr img{
-    width: 100%;
-    border-radius: 20px;
-}
-.card .text{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+.container1 .texto-general p{
+    font-size: 24px;
     text-align: center;
-    margin-bottom: 20px;
+    width: 80%;
+    font-weight: bold;
+    color: #686868;
 }
-.card .text h3{
-    font-weight: 700;
-    color: hsl(218, 44%, 22%);
+.container1 .imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 60px;
 }
-.card .text p{
-    font-size: 15px;
-    font-weight: 400;
-    color: hsl(220, 15%, 55%);
+.container1 .imagenes img{
+    width: 80%;
+}
+.container1 .imagenes .pieza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #2863d9;
+    width: auto;
+}
+.container1 .imagenes .pieza h3{
+    width: fit-content;
+}
+.container2{
+    margin-top: 60px;
+    background: #2863d9;
+    padding: 40px 100px;
+}
+.container2 ul li{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+.container3{
+    width: 100%;
+}
+.container3 .title{
+    background: white;
+    text-align: center;
+    padding: 40px;
+    color: #2863d9;
+    font-weight: bold;
+    font-size: 24px;
+}
+.container3 .info{
+    background: #2863d9;
+    padding: 40px 100px;
+    color: white;
+}
+.container3 .info{
+    background: #2863d9;
+    padding: 40px 100px;
+    font-size: 20px;
+}
+
+@media (max-width:950px){
+    .container1 .imagenes{
+        padding: 0px;
+    }
+}
+@media (max-width:800px){
+    .container1 .imagenes img{
+        width: 50%;
+    }
+}
+@media (max-width:650px){
+    .container1 .texto-general{
+        padding: 40px 0px;
+    }
+    .container1 .texto-general p{
+        width: 90%;
+    }
+    .container2{
+        padding: 40px 20px;
+    }
+    .container3 .title{
+        font-size: 24px;
+    }
+    .container3 .info{
+        padding: 40px 20px;
+    }
 }
