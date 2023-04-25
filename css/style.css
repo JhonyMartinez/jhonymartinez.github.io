@@ -30,6 +30,9 @@ header .headerp1 .h-img1{
     justify-content: center;
     padding: 20px 0px;
 }
+header .headerp1 .h-img1 img{
+    width: 100%;
+}
 header .headerp1 .conjunto .h-lines{
     width: 250px;
     border-left: 2px solid black;
@@ -37,6 +40,9 @@ header .headerp1 .conjunto .h-lines{
 }
 header .headerp1 .h-img2{
     padding: 20px 40px 20px;
+}
+header .headerp1 .h-img2 img{
+    width: 100%;
 }
 header .headerp2{
     display: flex;
