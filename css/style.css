@@ -249,6 +249,7 @@ footer .footer-p2 .footer-logo img{
     footer .footer-p1 .footer-texto{
         width: 100%;
         border-left: 0;
+        border-right: 0;
         border-bottom: 1px solid white;
         display: flex;
         flex-direction: column;
