@@ -30,9 +30,6 @@ header .headerp1 .h-img1{
     justify-content: center;
     padding: 20px 0px;
 }
-header .headerp1 .h-img1 img{
-    width: 100%;
-}
 header .headerp1 .conjunto .h-lines{
     width: 250px;
     border-left: 2px solid black;
@@ -40,9 +37,6 @@ header .headerp1 .conjunto .h-lines{
 }
 header .headerp1 .h-img2{
     padding: 20px 40px 20px;
-}
-header .headerp1 .h-img2 img{
-    width: 100%;
 }
 header .headerp2{
     display: flex;
@@ -286,7 +280,7 @@ footer .footer-p2 .footer-logo img{
         border-top: 1px solid white;
     }
     footer .footer-p1 .footer-redes img{
-        width: 70%;
+        width: 40%;
     }
     footer .footer-p2{
         flex-direction: column;
@@ -305,7 +299,7 @@ footer .footer-p2 .footer-logo img{
         align-items: center;
     }
     footer .footer-p2 .footer-logo img{
-        width: 40%;
+        width: 70%;
     }
 }
 @media (max-width: 500px) {
