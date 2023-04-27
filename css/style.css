@@ -150,8 +150,17 @@ footer .footer-p1 .footer-redes{
     width: 50%;
     border-left: 1px solid white;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+footer .footer-p1 .footer-redes .redes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+footer .footer-p1 .footer-redes .titulo-redes h4{
+    font-size: 3rem;
 }
 footer .footer-p1 .footer-redes a{
     display: flex;
@@ -288,6 +297,9 @@ footer .footer-p2 .footer-logo img{
         border-left: 0;
         padding: 20px;
         border-top: 1px solid white;
+    }
+    footer .footer-p1 .footer-redes .titulo-redes h4{
+        font-size: 2rem;
     }
     footer .footer-p1 .footer-redes a span{
         color: white;
