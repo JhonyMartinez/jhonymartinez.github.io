@@ -135,7 +135,7 @@ footer .footer-p1 .footer-texto .f-titulo{
 }
 footer .footer-p1 .footer-texto .f-titulo h3{
     font-size: 4rem;
-    padding-top: 35px;
+    padding: 20px 0px;
 }
 footer .footer-p1 .footer-texto .f-desc{
     border-top: 1px solid white;
@@ -153,6 +153,7 @@ footer .footer-p1 .footer-redes{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 footer .footer-p1 .footer-redes .redes{
     display: flex;
