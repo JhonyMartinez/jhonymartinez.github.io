@@ -156,11 +156,12 @@ footer .footer-p1 .footer-redes{
 }
 footer .footer-p1 .footer-redes .redes{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
     width: 100%;
 }
 footer .footer-p1 .footer-redes .titulo-redes h4{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 footer .footer-p1 .footer-redes a{
     display: flex;
@@ -175,10 +176,10 @@ footer .footer-p1 .footer-redes a span{
     font-size: 1.5rem;
 }
 footer .footer-p1 .footer-redes #mail{
-    width: 90%;
+    width: 70%;
 }
 footer .footer-p1 .footer-redes #whp{
-    width: 80%;
+    width: 60%;
 }
 footer .footer-p2{
     display: flex;
